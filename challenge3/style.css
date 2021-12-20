@@ -1,11 +1,26 @@
 /* Add your code in each class */
+
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
 }
 .head {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: orange;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  overflow: scroll;
+  background-color: wheat;
+  padding: 5px;
 }
 
 /* This is a gift - Does not need editing */

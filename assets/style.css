@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+.back-color {
+  background-color: #1c0c2c;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.container-book {
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+}
+.image-harry {
+  width: 20%;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.69);
+  box-shadow: 5px 5px 22px 5px rgba(0, 0, 0, 0.69);
+}
+.fancy-font {
+  font-family: "Pacifico", cursive;
+}
+
+.background-challange2 {
+  background-image: url("../assets/pokemon-bg.jpg");
+}
+.card {
+  text-align: center;
+  background-color: white;
+  width: 300px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+.prof {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+}
+.decrp {
+  font-size: 10px;
+}
+.center {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
