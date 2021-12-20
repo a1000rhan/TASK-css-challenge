@@ -18,13 +18,14 @@ body {
   text-align: end;
   object-fit: contain;
 }
-.movie-card:hover {
-}
+
 .movie-image {
   object-fit: cover;
   width: 300px;
   height: 300px;
   z-index: -2;
+  position: relative;
+  border-radius: 20px;
 }
 
 .movie-details-container {
